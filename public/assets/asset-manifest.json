@@ -1,0 +1,1332 @@
+{
+  "home-vendors": {
+    "src": "/assets/home-vendors.webp",
+    "width": 1280,
+    "height": 853,
+    "bytes": 750606,
+    "variants": [
+      {
+        "src": "/assets/home-vendors-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 170254
+      },
+      {
+        "src": "/assets/home-vendors-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 541098
+      },
+      {
+        "src": "/assets/home-vendors.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 750606
+      }
+    ],
+    "source": "codex-clipboard-39e85077-7604-487c-9119-82e6e7ea2e2b.png",
+    "crop": null,
+    "alt": "Peniaga bundle bersama koleksi pakaian mereka",
+    "confidence": "high",
+    "notes": "Owner-supplied original photo. No generated people. Original credit/watermark retained. Country is not assigned to individuals."
+  },
+  "home-denim": {
+    "src": "/assets/home-denim.webp",
+    "width": 1280,
+    "height": 853,
+    "bytes": 839310,
+    "variants": [
+      {
+        "src": "/assets/home-denim-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 185956
+      },
+      {
+        "src": "/assets/home-denim-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 596560
+      },
+      {
+        "src": "/assets/home-denim.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 839310
+      }
+    ],
+    "source": "codex-clipboard-e08e4e81-ec30-477b-b6ce-9bef9807f6ff.png",
+    "crop": null,
+    "alt": "Peniaga dan koleksi denim vintaj",
+    "confidence": "high",
+    "notes": "Owner-supplied original photo. No generated people. Original credit/watermark retained. Country is not assigned to individuals."
+  },
+  "home-hunt": {
+    "src": "/assets/home-hunt.webp",
+    "width": 853,
+    "height": 1280,
+    "bytes": 679208,
+    "variants": [
+      {
+        "src": "/assets/home-hunt-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 307112
+      },
+      {
+        "src": "/assets/home-hunt.webp",
+        "width": 853,
+        "height": 1280,
+        "bytes": 679208
+      }
+    ],
+    "source": "codex-clipboard-8cec893b-c5a9-4e17-b096-a295fe013d45.png",
+    "crop": null,
+    "alt": "Pengunjung memilih pakaian bundle",
+    "confidence": "high",
+    "notes": "Owner-supplied original photo. No generated people. Original credit/watermark retained. Country is not assigned to individuals."
+  },
+  "community-2026": {
+    "src": "/assets/community-2026.webp",
+    "width": 1280,
+    "height": 853,
+    "bytes": 902320,
+    "variants": [
+      {
+        "src": "/assets/community-2026-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 188620
+      },
+      {
+        "src": "/assets/community-2026-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 598420
+      },
+      {
+        "src": "/assets/community-2026.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 902320
+      }
+    ],
+    "source": "codex-clipboard-4f8d91d7-3831-49ca-9096-a5b80d91d44c.png",
+    "crop": null,
+    "alt": "Foto komuniti Bundle Neverdie 2026",
+    "confidence": "high",
+    "notes": "Owner-supplied original photo. No generated people. Original credit/watermark retained. Country is not assigned to individuals."
+  },
+  "program-racks": {
+    "src": "/assets/program-racks.webp",
+    "width": 1280,
+    "height": 853,
+    "bytes": 706876,
+    "variants": [
+      {
+        "src": "/assets/program-racks-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 165168
+      },
+      {
+        "src": "/assets/program-racks-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 500802
+      },
+      {
+        "src": "/assets/program-racks.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 706876
+      }
+    ],
+    "source": "codex-clipboard-0ff82c37-4e4d-4027-9e13-bd433660c95e.png",
+    "crop": null,
+    "alt": "Dua peniaga di antara rak pakaian bundle",
+    "confidence": "high",
+    "notes": "Owner-supplied original photo. No generated people. Original credit/watermark retained. Country is not assigned to individuals."
+  },
+  "program-caps": {
+    "src": "/assets/program-caps.webp",
+    "width": 1280,
+    "height": 853,
+    "bytes": 867000,
+    "variants": [
+      {
+        "src": "/assets/program-caps-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 184772
+      },
+      {
+        "src": "/assets/program-caps-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 586972
+      },
+      {
+        "src": "/assets/program-caps.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 867000
+      }
+    ],
+    "source": "codex-clipboard-8840829e-83d6-41f2-9a5c-71d2c807dbec.png",
+    "crop": null,
+    "alt": "Peniaga bersama koleksi topi dan pakaian di gerai",
+    "confidence": "high",
+    "notes": "Owner-supplied original photo. No generated people. Original credit/watermark retained. Country is not assigned to individuals."
+  },
+  "international-01": {
+    "src": "/assets/international-01.webp",
+    "width": 720,
+    "height": 960,
+    "bytes": 470018,
+    "variants": [
+      {
+        "src": "/assets/international-01-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 284444
+      },
+      {
+        "src": "/assets/international-01.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 470018
+      }
+    ],
+    "source": "codex-clipboard-cecff7cb-aba7-4d7d-ab71-fbf63bb243aa.png",
+    "crop": null,
+    "alt": "Sahabat komuniti di acara Bundle Neverdie",
+    "confidence": "high",
+    "notes": "Owner-supplied original photo. No generated people. Original credit/watermark retained. Country is not assigned to individuals."
+  },
+  "international-02": {
+    "src": "/assets/international-02.webp",
+    "width": 720,
+    "height": 960,
+    "bytes": 562218,
+    "variants": [
+      {
+        "src": "/assets/international-02-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 326090
+      },
+      {
+        "src": "/assets/international-02.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 562218
+      }
+    ],
+    "source": "codex-clipboard-11eda64b-0ca6-43f7-b149-7eef075d4bc0.png",
+    "crop": null,
+    "alt": "Sahabat komuniti di acara Bundle Neverdie",
+    "confidence": "high",
+    "notes": "Owner-supplied original photo. No generated people. Original credit/watermark retained. Country is not assigned to individuals."
+  },
+  "international-03": {
+    "src": "/assets/international-03.webp",
+    "width": 720,
+    "height": 960,
+    "bytes": 534604,
+    "variants": [
+      {
+        "src": "/assets/international-03-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 317926
+      },
+      {
+        "src": "/assets/international-03.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 534604
+      }
+    ],
+    "source": "codex-clipboard-9520e2f8-eb20-4544-ab86-4ae974533af6.png",
+    "crop": null,
+    "alt": "Sahabat komuniti di acara Bundle Neverdie",
+    "confidence": "high",
+    "notes": "Owner-supplied original photo. No generated people. Original credit/watermark retained. Country is not assigned to individuals."
+  },
+  "international-04": {
+    "src": "/assets/international-04.webp",
+    "width": 720,
+    "height": 960,
+    "bytes": 471360,
+    "variants": [
+      {
+        "src": "/assets/international-04-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 277672
+      },
+      {
+        "src": "/assets/international-04.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 471360
+      }
+    ],
+    "source": "codex-clipboard-173fabdf-ec40-4551-9fa4-18e7f6722e5f.png",
+    "crop": null,
+    "alt": "Sahabat komuniti di acara Bundle Neverdie",
+    "confidence": "high",
+    "notes": "Owner-supplied original photo. No generated people. Original credit/watermark retained. Country is not assigned to individuals."
+  },
+  "international-05": {
+    "src": "/assets/international-05.webp",
+    "width": 720,
+    "height": 956,
+    "bytes": 496318,
+    "variants": [
+      {
+        "src": "/assets/international-05-480.webp",
+        "width": 480,
+        "height": 637,
+        "bytes": 289106
+      },
+      {
+        "src": "/assets/international-05.webp",
+        "width": 720,
+        "height": 956,
+        "bytes": 496318
+      }
+    ],
+    "source": "codex-clipboard-ce1c80b7-98ca-4707-b97c-9b1c76c6d69c.png",
+    "crop": null,
+    "alt": "Sahabat komuniti di acara Bundle Neverdie",
+    "confidence": "high",
+    "notes": "Owner-supplied original photo. No generated people. Original credit/watermark retained. Country is not assigned to individuals."
+  },
+  "international-06": {
+    "src": "/assets/international-06.webp",
+    "width": 720,
+    "height": 540,
+    "bytes": 286228,
+    "variants": [
+      {
+        "src": "/assets/international-06-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 165674
+      },
+      {
+        "src": "/assets/international-06.webp",
+        "width": 720,
+        "height": 540,
+        "bytes": 286228
+      }
+    ],
+    "source": "codex-clipboard-8b52a480-e8c4-4d3a-bb27-d1e1dd938532.png",
+    "crop": null,
+    "alt": "Sahabat komuniti di acara Bundle Neverdie",
+    "confidence": "high",
+    "notes": "Owner-supplied original photo. No generated people. Original credit/watermark retained. Country is not assigned to individuals."
+  },
+  "tour-01": {
+    "src": "/assets/tour-01.webp",
+    "width": 720,
+    "height": 960,
+    "bytes": 320964,
+    "variants": [
+      {
+        "src": "/assets/tour-01-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 211370
+      },
+      {
+        "src": "/assets/tour-01.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 320964
+      }
+    ],
+    "source": "codex-clipboard-9fd4cecc-0601-4b6b-bf0e-1ce8ee6694d7.png",
+    "crop": null,
+    "alt": "Kenangan Bundle Neverdie Festival Tour Alor Setar, Disember 2025",
+    "confidence": "high",
+    "notes": "Owner-supplied original photo. No generated people. Original credit/watermark retained. Country is not assigned to individuals."
+  },
+  "tour-02": {
+    "src": "/assets/tour-02.webp",
+    "width": 720,
+    "height": 513,
+    "bytes": 319798,
+    "variants": [
+      {
+        "src": "/assets/tour-02-480.webp",
+        "width": 480,
+        "height": 342,
+        "bytes": 179444
+      },
+      {
+        "src": "/assets/tour-02.webp",
+        "width": 720,
+        "height": 513,
+        "bytes": 319798
+      }
+    ],
+    "source": "codex-clipboard-93127a10-4ae3-4ae4-bef8-b82e07f94077.png",
+    "crop": null,
+    "alt": "Kenangan Bundle Neverdie Festival Tour Alor Setar, Disember 2025",
+    "confidence": "high",
+    "notes": "Owner-supplied original photo. No generated people. Original credit/watermark retained. Country is not assigned to individuals."
+  },
+  "tour-03": {
+    "src": "/assets/tour-03.webp",
+    "width": 720,
+    "height": 405,
+    "bytes": 241696,
+    "variants": [
+      {
+        "src": "/assets/tour-03-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 136520
+      },
+      {
+        "src": "/assets/tour-03.webp",
+        "width": 720,
+        "height": 405,
+        "bytes": 241696
+      }
+    ],
+    "source": "codex-clipboard-6b450a55-084a-4d1a-82f0-7b1ded43f06a.png",
+    "crop": null,
+    "alt": "Kenangan Bundle Neverdie Festival Tour Alor Setar, Disember 2025",
+    "confidence": "high",
+    "notes": "Owner-supplied original photo. No generated people. Original credit/watermark retained. Country is not assigned to individuals."
+  },
+  "tour-04": {
+    "src": "/assets/tour-04.webp",
+    "width": 720,
+    "height": 960,
+    "bytes": 665168,
+    "variants": [
+      {
+        "src": "/assets/tour-04-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 359790
+      },
+      {
+        "src": "/assets/tour-04.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 665168
+      }
+    ],
+    "source": "codex-clipboard-da7485e1-a574-42a3-81ba-1b04a17892a9.png",
+    "crop": null,
+    "alt": "Kenangan Bundle Neverdie Festival Tour Alor Setar, Disember 2025",
+    "confidence": "high",
+    "notes": "Owner-supplied original photo. No generated people. Original credit/watermark retained. Country is not assigned to individuals."
+  },
+  "tour-05": {
+    "src": "/assets/tour-05.webp",
+    "width": 2560,
+    "height": 1440,
+    "bytes": 2276274,
+    "variants": [
+      {
+        "src": "/assets/tour-05-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 158364
+      },
+      {
+        "src": "/assets/tour-05-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 521160
+      },
+      {
+        "src": "/assets/tour-05-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 1274248
+      },
+      {
+        "src": "/assets/tour-05.webp",
+        "width": 2560,
+        "height": 1440,
+        "bytes": 2276274
+      }
+    ],
+    "source": "codex-clipboard-66ea8091-805d-42e9-b98b-e99146b8a249.png",
+    "crop": null,
+    "alt": "Kenangan Bundle Neverdie Festival Tour Alor Setar, Disember 2025",
+    "confidence": "high",
+    "notes": "Owner-supplied original photo. No generated people. Original credit/watermark retained. Country is not assigned to individuals."
+  },
+  "tour-06": {
+    "src": "/assets/tour-06.webp",
+    "width": 960,
+    "height": 1280,
+    "bytes": 747656,
+    "variants": [
+      {
+        "src": "/assets/tour-06-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 286236
+      },
+      {
+        "src": "/assets/tour-06.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 747656
+      }
+    ],
+    "source": "codex-clipboard-60284264-f77f-45f5-8407-c2ebf09d38f4.png",
+    "crop": null,
+    "alt": "Kenangan Bundle Neverdie Festival Tour Alor Setar, Disember 2025",
+    "confidence": "high",
+    "notes": "Owner-supplied original photo. No generated people. Original credit/watermark retained. Country is not assigned to individuals."
+  },
+  "fuji": {
+    "src": "/assets/fuji.webp",
+    "width": 534,
+    "height": 711,
+    "bytes": 361098,
+    "variants": [
+      {
+        "src": "/assets/fuji-480.webp",
+        "width": 480,
+        "height": 639,
+        "bytes": 325104
+      },
+      {
+        "src": "/assets/fuji.webp",
+        "width": 534,
+        "height": 711,
+        "bytes": 361098
+      }
+    ],
+    "source": "codex-clipboard-d27a6cfc-7ddf-4f10-bdac-e1d772b30194.png",
+    "crop": [
+      21,
+      211,
+      555,
+      922
+    ],
+    "alt": "Poster Bundle Never Die di hadapan Gunung Fuji, Jepun",
+    "confidence": "high",
+    "notes": "Cropped out phone/browser chrome. Does not imply an event hosted in Japan."
+  },
+  "press-2024": {
+    "src": "/assets/press-2024.webp",
+    "width": 534,
+    "height": 242,
+    "bytes": 156214,
+    "variants": [
+      {
+        "src": "/assets/press-2024-480.webp",
+        "width": 480,
+        "height": 218,
+        "bytes": 138918
+      },
+      {
+        "src": "/assets/press-2024.webp",
+        "width": 534,
+        "height": 242,
+        "bytes": 156214
+      }
+    ],
+    "source": "codex-clipboard-cb0682c0-7f75-40a2-8dca-35c25cdf4a59.png",
+    "crop": [
+      21,
+      888,
+      555,
+      1130
+    ],
+    "alt": "Suasana festival dalam liputan Mynewshub 2024",
+    "confidence": "high",
+    "notes": "Exact article image crop; no unrelated adverts or phone UI."
+  },
+  "press-2025": {
+    "src": "/assets/press-2025.webp",
+    "width": 575,
+    "height": 324,
+    "bytes": 255530,
+    "variants": [
+      {
+        "src": "/assets/press-2025-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 194830
+      },
+      {
+        "src": "/assets/press-2025.webp",
+        "width": 575,
+        "height": 324,
+        "bytes": 255530
+      }
+    ],
+    "source": "codex-clipboard-727bd9ca-0b93-42cc-91dc-5f968795a392.png",
+    "crop": [
+      0,
+      383,
+      575,
+      707
+    ],
+    "alt": "Poster dan suasana Bundle Never Die Returns dalam liputan 2025",
+    "confidence": "high",
+    "notes": "Exact article image crop. Historic poster information is not the 2027 event schedule."
+  },
+  "press-vendor-2025": {
+    "src": "/assets/press-vendor-2025.webp",
+    "width": 304,
+    "height": 163,
+    "bytes": 63826,
+    "variants": [
+      {
+        "src": "/assets/press-vendor-2025.webp",
+        "width": 304,
+        "height": 163,
+        "bytes": 63826
+      }
+    ],
+    "source": "codex-clipboard-727bd9ca-0b93-42cc-91dc-5f968795a392.png",
+    "crop": [
+      271,
+      385,
+      575,
+      548
+    ],
+    "alt": "Peniaga mempamerkan baju koleksi dalam liputan acara 2025",
+    "confidence": "high",
+    "notes": ""
+  },
+  "brand-masthead": {
+    "src": "/assets/brand-masthead.webp",
+    "width": 672,
+    "height": 144,
+    "bytes": 111582,
+    "variants": [
+      {
+        "src": "/assets/brand-masthead-480.webp",
+        "width": 480,
+        "height": 103,
+        "bytes": 58230
+      },
+      {
+        "src": "/assets/brand-masthead.webp",
+        "width": 672,
+        "height": 144,
+        "bytes": 111582
+      }
+    ],
+    "source": "06-homepage-vol09.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "high",
+    "notes": "Exact approved wordmark; removed stray VOL label outside wordmark."
+  },
+  "logo-skull": {
+    "src": "/assets/logo-skull.webp",
+    "width": 126,
+    "height": 107,
+    "bytes": 23742,
+    "variants": [
+      {
+        "src": "/assets/logo-skull.webp",
+        "width": 126,
+        "height": 107,
+        "bytes": 23742
+      }
+    ],
+    "source": "06-homepage-vol09.png",
+    "crop": null,
+    "alt": "Logo Bundle Neverdie",
+    "confidence": "high",
+    "notes": "Exact approved home skull artwork crop (38, 193, 164, 300); native size126x107. Prefer modest display size; high-resolution original poster retained separately."
+  },
+  "logo-original-poster": {
+    "src": "/assets/logo-original-poster.webp",
+    "width": 930,
+    "height": 848,
+    "bytes": 831304,
+    "variants": [
+      {
+        "src": "/assets/logo-original-poster-480.webp",
+        "width": 480,
+        "height": 438,
+        "bytes": 281440
+      },
+      {
+        "src": "/assets/logo-original-poster.webp",
+        "width": 930,
+        "height": 848,
+        "bytes": 831304
+      }
+    ],
+    "source": "codex-clipboard-a04479df-e7a3-4908-a7fc-9b5f98dc13f4.png",
+    "crop": [
+      47,
+      41,
+      977,
+      889
+    ],
+    "alt": "Artwork asal Bundle Neverdie Festival",
+    "confidence": "high",
+    "notes": "High-resolution supplied original artwork, including black background. No new generation."
+  },
+  "facebook-group-avatar": {
+    "src": "/assets/facebook-group-avatar.webp",
+    "width": 560,
+    "height": 560,
+    "bytes": 412686,
+    "variants": [
+      {
+        "src": "/assets/facebook-group-avatar-480.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 272090
+      },
+      {
+        "src": "/assets/facebook-group-avatar.webp",
+        "width": 560,
+        "height": 560,
+        "bytes": 412686
+      }
+    ],
+    "source": "codex-clipboard-a04479df-e7a3-4908-a7fc-9b5f98dc13f4.png",
+    "crop": null,
+    "alt": "Bundle Never Die brotherhood",
+    "confidence": "high",
+    "notes": "Circular crop of the owner-supplied skull artwork used on the group cover; no member or administrator data."
+  },
+  "facebook-page-avatar": {
+    "src": "/assets/facebook-page-avatar.webp",
+    "width": 226,
+    "height": 226,
+    "bytes": 46680,
+    "variants": [
+      {
+        "src": "/assets/facebook-page-avatar.webp",
+        "width": 226,
+        "height": 226,
+        "bytes": 46680
+      }
+    ],
+    "source": "codex-clipboard-660837e1-6c28-4eda-92f6-e591d0251523.png",
+    "crop": null,
+    "alt": "Kulim bundle never die",
+    "confidence": "high",
+    "notes": "Cropped public-facing avatar only. No follower list, counts or administration UI."
+  },
+  "paper-texture": {
+    "src": "/assets/paper-texture.webp",
+    "width": 196,
+    "height": 106,
+    "bytes": 8282,
+    "variants": [
+      {
+        "src": "/assets/paper-texture.webp",
+        "width": 196,
+        "height": 106,
+        "bytes": 8282
+      }
+    ],
+    "source": "06-homepage-vol09.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "high",
+    "notes": "Mirrored clean source patch (2, 652, 100, 705); texture only, decorative; background-repeat."
+  },
+  "red-texture": {
+    "src": "/assets/red-texture.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1570446,
+    "variants": [
+      {
+        "src": "/assets/red-texture.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1570446
+      }
+    ],
+    "source": "exec-b1896fa3-f9b5-41d4-b357-a9ca0165cc64.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "high",
+    "notes": "New built-in ImageGen texture, fills missing usable high-resolution red material; exact model not selectable."
+  },
+  "navy-texture": {
+    "src": "/assets/navy-texture.webp",
+    "width": 28,
+    "height": 162,
+    "bytes": 3412,
+    "variants": [
+      {
+        "src": "/assets/navy-texture.webp",
+        "width": 28,
+        "height": 162,
+        "bytes": 3412
+      }
+    ],
+    "source": "11-tentang-community.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "high",
+    "notes": "Mirrored clean source patch (24, 851, 38, 932); texture only, decorative; background-repeat."
+  },
+  "red-panel-frame": {
+    "src": "/assets/red-panel-frame.webp",
+    "width": 683,
+    "height": 200,
+    "bytes": 180038,
+    "variants": [
+      {
+        "src": "/assets/red-panel-frame.webp",
+        "width": 683,
+        "height": 200,
+        "bytes": 180038
+      }
+    ],
+    "source": "11-tentang-community.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "high",
+    "notes": "Exact distressed frame extracted with transparent content area. CSS border-image-slice:8; do not stretch as a foreground photo."
+  },
+  "paper-ticket": {
+    "src": "/assets/paper-ticket.webp",
+    "width": 323,
+    "height": 153,
+    "bytes": 62520,
+    "variants": [
+      {
+        "src": "/assets/paper-ticket.webp",
+        "width": 323,
+        "height": 153,
+        "bytes": 62520
+      }
+    ],
+    "source": "08-program-new-photos.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "high",
+    "notes": "Exact aged-paper card border; center transparent; CSS border-image-slice:7."
+  },
+  "product-still-life": {
+    "src": "/assets/product-still-life.webp",
+    "width": 398,
+    "height": 211,
+    "bytes": 120514,
+    "variants": [
+      {
+        "src": "/assets/product-still-life.webp",
+        "width": 398,
+        "height": 211,
+        "bytes": 120514
+      }
+    ],
+    "source": "08-program-new-photos.png",
+    "crop": [
+      0,
+      1715,
+      398,
+      1926
+    ],
+    "alt": "Denim, topi vintaj dan penyangkut kayu",
+    "confidence": "high",
+    "notes": "Exact approved decorative still-life extracted from program page. This is generated decor, not event documentary evidence."
+  },
+  "icon-group": {
+    "src": "/assets/icon-group.webp",
+    "width": 50,
+    "height": 42,
+    "bytes": 380,
+    "variants": [
+      {
+        "src": "/assets/icon-group.webp",
+        "width": 50,
+        "height": 42,
+        "bytes": 380
+      }
+    ],
+    "source": "06-homepage-vol09.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "high",
+    "notes": "Original reference icon pixels from (123, 659, 173, 701); extracted alpha, no icon substitution."
+  },
+  "icon-handshake": {
+    "src": "/assets/icon-handshake.webp",
+    "width": 59,
+    "height": 36,
+    "bytes": 554,
+    "variants": [
+      {
+        "src": "/assets/icon-handshake.webp",
+        "width": 59,
+        "height": 36,
+        "bytes": 554
+      }
+    ],
+    "source": "06-homepage-vol09.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "high",
+    "notes": "Original handshake only; excludes adjacent caption."
+  },
+  "icon-shop": {
+    "src": "/assets/icon-shop.webp",
+    "width": 44,
+    "height": 37,
+    "bytes": 474,
+    "variants": [
+      {
+        "src": "/assets/icon-shop.webp",
+        "width": 44,
+        "height": 37,
+        "bytes": 474
+      }
+    ],
+    "source": "04-vintage-editorial-v2.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "medium",
+    "notes": "Original reference icon pixels from (376, 661, 420, 698); extracted alpha, no icon substitution."
+  },
+  "icon-calendar": {
+    "src": "/assets/icon-calendar.webp",
+    "width": 31,
+    "height": 32,
+    "bytes": 364,
+    "variants": [
+      {
+        "src": "/assets/icon-calendar.webp",
+        "width": 31,
+        "height": 32,
+        "bytes": 364
+      }
+    ],
+    "source": "08-program-new-photos.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "high",
+    "notes": "Original reference icon pixels from (43, 382, 74, 414); extracted alpha, no icon substitution."
+  },
+  "icon-pin": {
+    "src": "/assets/icon-pin.webp",
+    "width": 25,
+    "height": 35,
+    "bytes": 228,
+    "variants": [
+      {
+        "src": "/assets/icon-pin.webp",
+        "width": 25,
+        "height": 35,
+        "bytes": 228
+      }
+    ],
+    "source": "08-program-new-photos.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "high",
+    "notes": "Original reference icon pixels from (300, 381, 325, 416); extracted alpha, no icon substitution."
+  },
+  "icon-arrow": {
+    "src": "/assets/icon-arrow.webp",
+    "width": 17,
+    "height": 15,
+    "bytes": 108,
+    "variants": [
+      {
+        "src": "/assets/icon-arrow.webp",
+        "width": 17,
+        "height": 15,
+        "bytes": 108
+      }
+    ],
+    "source": "06-homepage-vol09.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "medium",
+    "notes": "Original reference icon pixels from (205, 1084, 222, 1099); extracted alpha, no icon substitution."
+  },
+  "icon-star": {
+    "src": "/assets/icon-star.webp",
+    "width": 29,
+    "height": 32,
+    "bytes": 32,
+    "variants": [
+      {
+        "src": "/assets/icon-star.webp",
+        "width": 29,
+        "height": 32,
+        "bytes": 32
+      }
+    ],
+    "source": "06-homepage-vol09.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "high",
+    "notes": "Original reference icon pixels from (203, 119, 232, 151); extracted alpha, no icon substitution."
+  },
+  "vendor-directory-2026": {
+    "src": "/assets/vendor-directory-2026.webp",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 1781338,
+    "variants": [
+      {
+        "src": "/assets/vendor-directory-2026-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 387676
+      },
+      {
+        "src": "/assets/vendor-directory-2026-960.webp",
+        "width": 960,
+        "height": 1200,
+        "bytes": 1390168
+      },
+      {
+        "src": "/assets/vendor-directory-2026.webp",
+        "width": 1122,
+        "height": 1402,
+        "bytes": 1781338
+      }
+    ],
+    "source": "10-vendor-directory-2026.png",
+    "crop": null,
+    "alt": "Draf direktori komuniti vendor 2026",
+    "confidence": "high",
+    "notes": "Historical 2026; spelling-review status preserved, not a confirmed 2027 vendor list."
+  },
+  "throwback-2026": {
+    "src": "/assets/throwback-2026.mp4",
+    "type": "video/mp4",
+    "bytes": 4225736,
+    "source": "WhatsApp Video 2026-11-01 at 2.57.40 PM.mp4",
+    "poster": "/assets/community-2026.webp",
+    "notes": "Owner-supplied original video, copied without transcoding; content not independently viewed."
+  },
+  "home-program-community": {
+    "src": "/assets/home-program-community.webp",
+    "width": 147,
+    "height": 185,
+    "bytes": 42668,
+    "variants": [
+      {
+        "src": "/assets/home-program-community.webp",
+        "width": 147,
+        "height": 185,
+        "bytes": 42668
+      }
+    ],
+    "source": "06-homepage-vol09.png",
+    "crop": [
+      603,
+      901,
+      750,
+      1086
+    ],
+    "alt": "",
+    "confidence": "high",
+    "notes": "Approved generated community illustration, decorative promotional card; not used as documentary gallery."
+  },
+  "home-program-vendor": {
+    "src": "/assets/home-program-vendor.webp",
+    "width": 153,
+    "height": 184,
+    "bytes": 41054,
+    "variants": [
+      {
+        "src": "/assets/home-program-vendor.webp",
+        "width": 153,
+        "height": 184,
+        "bytes": 41054
+      }
+    ],
+    "source": "06-homepage-vol09.png",
+    "crop": [
+      434,
+      901,
+      587,
+      1085
+    ],
+    "alt": "",
+    "confidence": "high",
+    "notes": "Approved generated vendor illustration for promotional card."
+  },
+  "title-purpose": {
+    "src": "/assets/title-purpose.webp",
+    "width": 623,
+    "height": 46,
+    "bytes": 42476,
+    "variants": [
+      {
+        "src": "/assets/title-purpose-480.webp",
+        "width": 480,
+        "height": 35,
+        "bytes": 27492
+      },
+      {
+        "src": "/assets/title-purpose.webp",
+        "width": 623,
+        "height": 46,
+        "bytes": 42476
+      }
+    ],
+    "source": "06-homepage-vol09.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "high",
+    "notes": "Approved display lettering crop (87, 582, 710, 628); actual heading text remains in accessible HTML."
+  },
+  "title-home-program": {
+    "src": "/assets/title-home-program.webp",
+    "width": 367,
+    "height": 39,
+    "bytes": 24216,
+    "variants": [
+      {
+        "src": "/assets/title-home-program.webp",
+        "width": 367,
+        "height": 39,
+        "bytes": 24216
+      }
+    ],
+    "source": "06-homepage-vol09.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "high",
+    "notes": "Approved display lettering crop (43, 814, 410, 853); actual heading text remains in accessible HTML."
+  },
+  "title-history": {
+    "src": "/assets/title-history.webp",
+    "width": 270,
+    "height": 39,
+    "bytes": 17322,
+    "variants": [
+      {
+        "src": "/assets/title-history.webp",
+        "width": 270,
+        "height": 39,
+        "bytes": 17322
+      }
+    ],
+    "source": "06-homepage-vol09.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "high",
+    "notes": "Approved display lettering crop (44, 1161, 314, 1200); actual heading text remains in accessible HTML."
+  },
+  "title-media": {
+    "src": "/assets/title-media.webp",
+    "width": 362,
+    "height": 41,
+    "bytes": 23812,
+    "variants": [
+      {
+        "src": "/assets/title-media.webp",
+        "width": 362,
+        "height": 41,
+        "bytes": 23812
+      }
+    ],
+    "source": "06-homepage-vol09.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "high",
+    "notes": "Approved display lettering crop (43, 1514, 405, 1555); actual heading text remains in accessible HTML."
+  },
+  "title-about": {
+    "src": "/assets/title-about.webp",
+    "width": 349,
+    "height": 165,
+    "bytes": 80344,
+    "variants": [
+      {
+        "src": "/assets/title-about.webp",
+        "width": 349,
+        "height": 165,
+        "bytes": 80344
+      }
+    ],
+    "source": "12-tentang-brotherhood-international.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "high",
+    "notes": "Approved display lettering crop (31, 315, 380, 480); actual heading text remains in accessible HTML."
+  },
+  "title-program": {
+    "src": "/assets/title-program.webp",
+    "width": 567,
+    "height": 58,
+    "bytes": 46964,
+    "variants": [
+      {
+        "src": "/assets/title-program-480.webp",
+        "width": 480,
+        "height": 49,
+        "bytes": 34608
+      },
+      {
+        "src": "/assets/title-program.webp",
+        "width": 567,
+        "height": 58,
+        "bytes": 46964
+      }
+    ],
+    "source": "08-program-new-photos.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "high",
+    "notes": "Approved display lettering crop (86, 260, 653, 318); actual heading text remains in accessible HTML."
+  },
+  "title-sorotan": {
+    "src": "/assets/title-sorotan.webp",
+    "width": 606,
+    "height": 56,
+    "bytes": 48936,
+    "variants": [
+      {
+        "src": "/assets/title-sorotan-480.webp",
+        "width": 480,
+        "height": 44,
+        "bytes": 32482
+      },
+      {
+        "src": "/assets/title-sorotan.webp",
+        "width": 606,
+        "height": 56,
+        "bytes": 48936
+      }
+    ],
+    "source": "14-sorotan-with-december-tour.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "high",
+    "notes": "Approved display lettering crop (62, 318, 668, 374); actual heading text remains in accessible HTML."
+  },
+  "title-gallery": {
+    "src": "/assets/title-gallery.webp",
+    "width": 684,
+    "height": 55,
+    "bytes": 58146,
+    "variants": [
+      {
+        "src": "/assets/title-gallery-480.webp",
+        "width": 480,
+        "height": 39,
+        "bytes": 31772
+      },
+      {
+        "src": "/assets/title-gallery.webp",
+        "width": 684,
+        "height": 55,
+        "bytes": 58146
+      }
+    ],
+    "source": "13-galeri-international-alor-setar.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "high",
+    "notes": "Approved display lettering crop (69, 142, 753, 197); actual heading text remains in accessible HTML."
+  },
+  "fuji-home": {
+    "src": "/assets/fuji-home.webp",
+    "width": 333,
+    "height": 208,
+    "bytes": 101430,
+    "variants": [
+      {
+        "src": "/assets/fuji-home.webp",
+        "width": 333,
+        "height": 208,
+        "bytes": 101430
+      }
+    ],
+    "source": "06-homepage-vol09.png",
+    "crop": [
+      44,
+      1268,
+      377,
+      1476
+    ],
+    "alt": "",
+    "confidence": "high",
+    "notes": "Approved wide promotion image; not evidence of an event in Japan."
+  },
+  "fuji-sorotan": {
+    "src": "/assets/fuji-sorotan.webp",
+    "width": 394,
+    "height": 174,
+    "bytes": 111686,
+    "variants": [
+      {
+        "src": "/assets/fuji-sorotan.webp",
+        "width": 394,
+        "height": 174,
+        "bytes": 111686
+      }
+    ],
+    "source": "14-sorotan-with-december-tour.png",
+    "crop": [
+      21,
+      1651,
+      415,
+      1825
+    ],
+    "alt": "",
+    "confidence": "high",
+    "notes": "Approved wide promotion artwork."
+  },
+  "archive-postcards": {
+    "src": "/assets/archive-postcards.webp",
+    "width": 180,
+    "height": 118,
+    "bytes": 29640,
+    "variants": [
+      {
+        "src": "/assets/archive-postcards.webp",
+        "width": 180,
+        "height": 118,
+        "bytes": 29640
+      }
+    ],
+    "source": "08-program-new-photos.png",
+    "crop": [
+      25,
+      1943,
+      205,
+      2061
+    ],
+    "alt": "",
+    "confidence": "high",
+    "notes": "Original decorative vintage postcards."
+  },
+  "gallery-still-life": {
+    "src": "/assets/gallery-still-life.webp",
+    "width": 267,
+    "height": 240,
+    "bytes": 77660,
+    "variants": [
+      {
+        "src": "/assets/gallery-still-life.webp",
+        "width": 267,
+        "height": 240,
+        "bytes": 77660
+      }
+    ],
+    "source": "13-galeri-international-alor-setar.png",
+    "crop": null,
+    "alt": "",
+    "confidence": "high",
+    "notes": "Exact approved gallery decorative still-life, moved below consistent shared header."
+  }
+}

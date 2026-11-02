@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bundle Neverdie Festival//Vol09//MS
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:bundle-neverdie-vol09-2027
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270503
+SUMMARY:Bundle Neverdie Festival Vol. 09
+LOCATION:Kompleks Sukan KHTP\, Kulim\, Kedah
+DESCRIPTION:Festival komuniti bundle dan vintage. Butiran program akan diumumkan.
+END:VEVENT
+END:VCALENDAR

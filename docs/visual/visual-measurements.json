@@ -1,0 +1,130 @@
+[
+  {
+    "page": "home",
+    "size": "phone",
+    "height": 3941,
+    "missing": [],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "page": "sorotan",
+    "size": "phone",
+    "height": 4130,
+    "missing": [],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "page": "home",
+    "size": "tablet",
+    "height": 2522,
+    "missing": [],
+    "scrollWidth": 819,
+    "width": 834
+  },
+  {
+    "page": "sorotan",
+    "size": "tablet",
+    "height": 2866,
+    "missing": [],
+    "scrollWidth": 819,
+    "width": 834
+  },
+  {
+    "page": "home",
+    "size": "desktop",
+    "height": 3418,
+    "missing": [],
+    "scrollWidth": 1425,
+    "width": 1440
+  },
+  {
+    "page": "sorotan",
+    "size": "desktop",
+    "height": 4229,
+    "missing": [],
+    "scrollWidth": 1425,
+    "width": 1440
+  },
+  {
+    "page": "tentang",
+    "size": "phone",
+    "height": 3878,
+    "missing": [],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "page": "program",
+    "size": "phone",
+    "height": 4450,
+    "missing": [],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "page": "galeri",
+    "size": "phone",
+    "height": 3056,
+    "missing": [],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "page": "tentang",
+    "size": "tablet",
+    "height": 2610,
+    "missing": [],
+    "scrollWidth": 819,
+    "width": 834
+  },
+  {
+    "page": "program",
+    "size": "tablet",
+    "height": 3377,
+    "missing": [],
+    "scrollWidth": 819,
+    "width": 834
+  },
+  {
+    "page": "galeri",
+    "size": "tablet",
+    "height": 2194,
+    "missing": [],
+    "scrollWidth": 819,
+    "width": 834
+  },
+  {
+    "page": "tentang",
+    "size": "desktop",
+    "height": 3318,
+    "missing": [],
+    "scrollWidth": 1425,
+    "width": 1440
+  },
+  {
+    "page": "program",
+    "size": "desktop",
+    "height": 4500,
+    "missing": [],
+    "scrollWidth": 1425,
+    "width": 1440
+  },
+  {
+    "page": "galeri",
+    "size": "desktop",
+    "height": 3094,
+    "missing": [],
+    "scrollWidth": 1425,
+    "width": 1440
+  },
+  {
+    "page": "home",
+    "size": "large",
+    "height": 4538,
+    "missing": [],
+    "scrollWidth": 2545,
+    "width": 2560
+  }
+]
