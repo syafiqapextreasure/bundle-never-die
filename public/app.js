@@ -30,3 +30,5 @@ const motion=matchMedia('(prefers-reduced-motion: reduce)');let scheduled=false;
 function parallax(){scheduled=false;for(const el of $$('.parallax-image')){const rect=el.parentElement.getBoundingClientRect();const offset=motion.matches?0:Math.max(-14,Math.min(14,(innerHeight/2-rect.top-rect.height/2)*.035));el.style.setProperty('--parallax',`${offset}px`);}}
 addEventListener('scroll',()=>{if(!scheduled&&!motion.matches){scheduled=true;requestAnimationFrame(parallax);}},{passive:true});
 motion.addEventListener('change',parallax);parallax();
+
+for(const player of $$('.video-player')){const video=$('video',player),cover=$('.video-cover',player);if(!video||!cover)continue;cover.hidden=false;video.controls=false;cover.addEventListener('click',async()=>{cover.hidden=true;video.controls=true;try{await video.play();video.focus();}catch{video.controls=false;cover.hidden=false;}});video.addEventListener('play',()=>{cover.hidden=true;video.controls=true;});video.addEventListener('ended',()=>{video.controls=false;video.load();cover.hidden=false;});}
