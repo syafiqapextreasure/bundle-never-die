@@ -6,7 +6,7 @@ export const event = {
   group: 'https://www.facebook.com/groups/296109614676375/',
   map: 'https://www.google.com/maps/search/?api=1&query=Kompleks+Sukan+KHTP+Kulim+Kedah'
 };
-export const routes = ['/', '/tentang', '/program', '/sorotan', '/galeri'];
+export { routes } from './routes.mjs';
 export const meta = {
  '/': ['Bundle Neverdie Festival 2027 · Vol. 09 · Kulim, Kedah', 'Bundle Neverdie Festival Vol. 09 kembali pada 1 & 2 Mei 2027 di Kompleks Sukan KHTP, Kulim, Kedah. Pertemuan komuniti bundle, vintage dan brotherhood.'],
  '/tentang': ['Tentang Komuniti & Brotherhood · Bundle Neverdie Festival', 'Kenali komuniti Bundle Neverdie: ruang untuk peniaga bundle dan vintage, usaha bersama brotherhood dan persahabatan merentas sempadan.'],
@@ -14,7 +14,8 @@ export const meta = {
  '/sorotan': ['Sorotan Acara & Tour · Bundle Neverdie Festival', 'Imbas kembali acara Bundle Neverdie 2026, Tour Alor Setar Disember 2025, Returns Ogos 2025 dan cerita komuniti antarabangsa.'],
  '/galeri': ['Galeri Komuniti & Tour Alor Setar · Bundle Neverdie Festival', 'Album foto penyokong antarabangsa, komuniti bundle dan vintage, serta Bundle Neverdie Festival Tour Alor Setar, Kedah, Disember 2025.']
 };
-const albums=JSON.parse(readFileSync('content/albums.json','utf8'));
+// Build-time only; never imported by the deployed Worker.
+const albums=JSON.parse(readFileSync(new URL('../content/albums.json', import.meta.url),'utf8'));
 export const international=albums.antarabangsa;
 export const tour=albums.tour;
 export const community=albums.komuniti;

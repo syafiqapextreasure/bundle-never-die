@@ -14,6 +14,8 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm test
+      - name: Boot Cloudflare runtime and exercise real HTTP routes
+        run: npm run test:worker
       - name: Validate Cloudflare package without deploying
         run: npx wrangler deploy --dry-run
         env:

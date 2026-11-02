@@ -1,11 +1,33 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {readFile,stat} from 'node:fs/promises';
+import {readFile,stat,mkdtemp,mkdir,writeFile,rm} from 'node:fs/promises';
+import {tmpdir} from 'node:os';
+import {resolve,dirname,join,relative} from 'node:path';
+import {pathToFileURL} from 'node:url';
 import worker from '../src/worker.mjs';
 import {routes} from '../src/data.mjs';
 import {albumCarousel} from '../src/carousels.mjs';
 const env={ASSETS:{async fetch(request){const url=new URL(request.url);const file='dist/'+(url.pathname==='/'?'index.html':url.pathname.slice(1)+(url.pathname.includes('.')?'':'.html'));try{return new Response(request.method==='HEAD'?null:await readFile(file),{headers:{'content-type':file.endsWith('.html')?'text/html':'application/octet-stream'}});}catch{return new Response(await readFile('dist/404.html'),{status:404,headers:{'content-type':'text/html'}});}}}};
 const request=(path,options={})=>worker.fetch(new Request('https://festival.example'+path,options),env);
+
+test('Worker boots without build-time content files',async()=>{
+ const sandbox=await mkdtemp(join(tmpdir(),'neverdie-worker-'));
+ const originalCwd=process.cwd();
+ const sourceRoot=resolve('src');const visited=new Set();
+ async function copyModule(file){
+  if(visited.has(file))return;visited.add(file);
+  const code=await readFile(file,'utf8');const target=join(sandbox,relative(sourceRoot,file));
+  await mkdir(dirname(target),{recursive:true});await writeFile(target,code);
+  for(const match of code.matchAll(/(?:from\s*|import\s*)['"](\.[^'"]+\.mjs)['"]/g))await copyModule(resolve(dirname(file),match[1]));
+ }
+ try {
+  await copyModule(resolve('src/worker.mjs'));
+  process.chdir(sandbox);
+  const isolated=await import(pathToFileURL(join(sandbox,'worker.mjs')).href);
+  const response=await isolated.default.fetch(new Request('https://festival.example/sitemap.xml'),{});
+  assert.equal(response.status,200);assert.match(await response.text(),/\/galeri<\/loc>/);
+ }finally{process.chdir(originalCwd);await rm(sandbox,{recursive:true,force:true});}
+});
 test('five pages have unique metadata, one H1 and runtime canonical URLs',async()=>{const titles=new Set();for(const route of routes){const res=await request(route);assert.equal(res.status,200);const html=await res.text();assert.equal((html.match(/<h1\b/g)||[]).length,1);assert.ok(html.includes(`rel="canonical" href="https://festival.example${route}"`));assert.ok(!html.includes('__SITE_ORIGIN__'));assert.ok(html.includes('lang="ms"'));titles.add(html.match(/<title>(.*?)<\/title>/)[1]);}assert.equal(titles.size,5);});
 test('header has only four intended links; galleries entered through Sorotan',async()=>{for(const route of routes){const html=await (await request(route)).text();const nav=html.match(/<nav id="main-nav"[\s\S]*?<\/nav>/)[0];assert.deepEqual([...nav.matchAll(/href="([^"]+)"/g)].map(m=>m[1]),['/','/tentang','/program','/sorotan']);if(!['/sorotan','/galeri'].includes(route))assert.ok(!/href="\/galeri/.test(html));}assert.match(await (await request('/sorotan')).text(),/href="\/galeri\?album=komuniti"/);});
 test('old html and slash URLs redirect without losing query parameters',async()=>{for(const path of ['/tentang.html','/tentang/','/index.html']){const res=await request(path+'?x=1');assert.equal(res.status,301);assert.equal(new URL(res.headers.get('location')).pathname,path==='/index.html'?'/':'/tentang');assert.equal(new URL(res.headers.get('location')).search,'?x=1');}});

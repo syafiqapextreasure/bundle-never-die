@@ -1,4 +1,4 @@
-import { routes } from './data.mjs';
+import { routes } from './routes.mjs';
 
 export default {
  async fetch(request, env) {

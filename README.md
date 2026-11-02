@@ -66,7 +66,10 @@ See [visual audit](docs/VISUAL-AUDIT.md), [SEO research](docs/SEO-RESEARCH.md) a
 
 ```sh
 npm test
+npm run test:worker
 npx wrangler deploy --dry-run
 ```
 
 The visual review covers 390px phone, 834px tablet, 1440px desktop and a 2560px homepage check. Native dialog controls, album filters, navigation and vendor search are verified in the browser. Parallax, hover zoom, animated icon feedback and native view transitions respect `prefers-reduced-motion`. Native page transitions progressively enhance browsers that support them.
+
+`test:worker` starts the actual local Cloudflare runtime to catch initialization failures that a dry-run cannot detect. See [the startup fix and compact-layout revision](docs/FOLLOWUP-DEPLOYMENT-AND-LAYOUT.md). The Worker imports only the filesystem-free route list; album JSON is consumed during the static build.
