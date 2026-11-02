@@ -1,130 +1,146 @@
 [
   {
-    "page": "home",
-    "size": "phone",
-    "height": 3941,
-    "missing": [],
-    "scrollWidth": 375,
-    "width": 390
-  },
-  {
-    "page": "sorotan",
-    "size": "phone",
-    "height": 4130,
-    "missing": [],
-    "scrollWidth": 375,
-    "width": 390
-  },
-  {
-    "page": "home",
-    "size": "tablet",
-    "height": 2522,
-    "missing": [],
-    "scrollWidth": 819,
-    "width": 834
-  },
-  {
-    "page": "sorotan",
-    "size": "tablet",
-    "height": 2866,
-    "missing": [],
-    "scrollWidth": 819,
-    "width": 834
-  },
-  {
-    "page": "home",
-    "size": "desktop",
-    "height": 3418,
+    "name": "tentang",
+    "label": "desktop",
+    "height": 4137,
     "missing": [],
     "scrollWidth": 1425,
+    "viewportHeight": 1000,
     "width": 1440
   },
   {
-    "page": "sorotan",
-    "size": "desktop",
-    "height": 4229,
+    "name": "sorotan",
+    "label": "desktop",
+    "height": 4968,
     "missing": [],
     "scrollWidth": 1425,
+    "viewportHeight": 1000,
     "width": 1440
   },
   {
-    "page": "tentang",
-    "size": "phone",
-    "height": 3878,
+    "name": "galeri",
+    "label": "desktop",
+    "height": 5707,
     "missing": [],
-    "scrollWidth": 375,
-    "width": 390
+    "scrollWidth": 1425,
+    "viewportHeight": 1000,
+    "width": 1440
   },
   {
-    "page": "program",
-    "size": "phone",
-    "height": 4450,
-    "missing": [],
-    "scrollWidth": 375,
-    "width": 390
-  },
-  {
-    "page": "galeri",
-    "size": "phone",
-    "height": 3056,
-    "missing": [],
-    "scrollWidth": 375,
-    "width": 390
-  },
-  {
-    "page": "tentang",
-    "size": "tablet",
-    "height": 2610,
+    "name": "home",
+    "label": "tablet",
+    "height": 3070,
     "missing": [],
     "scrollWidth": 819,
+    "viewportHeight": 1112,
     "width": 834
   },
   {
-    "page": "program",
-    "size": "tablet",
-    "height": 3377,
+    "name": "tentang",
+    "label": "tablet",
+    "height": 2953,
     "missing": [],
     "scrollWidth": 819,
+    "viewportHeight": 1112,
     "width": 834
   },
   {
-    "page": "galeri",
-    "size": "tablet",
-    "height": 2194,
+    "name": "program",
+    "label": "tablet",
+    "height": 4129,
     "missing": [],
     "scrollWidth": 819,
+    "viewportHeight": 1112,
     "width": 834
   },
   {
-    "page": "tentang",
-    "size": "desktop",
-    "height": 3318,
+    "name": "sorotan",
+    "label": "tablet",
+    "height": 3814,
+    "missing": [],
+    "scrollWidth": 819,
+    "viewportHeight": 1112,
+    "width": 834
+  },
+  {
+    "name": "tentang",
+    "label": "phone",
+    "height": 4019,
+    "missing": [],
+    "scrollWidth": 375,
+    "viewportHeight": 844,
+    "width": 390
+  },
+  {
+    "name": "sorotan",
+    "label": "phone",
+    "height": 4524,
+    "missing": [],
+    "scrollWidth": 375,
+    "viewportHeight": 844,
+    "width": 390
+  },
+  {
+    "name": "home",
+    "label": "phone",
+    "height": 4422,
+    "missing": [],
+    "scrollWidth": 375,
+    "viewportHeight": 844,
+    "width": 390
+  },
+  {
+    "name": "program",
+    "label": "phone",
+    "height": 4517,
+    "missing": [],
+    "scrollWidth": 375,
+    "viewportHeight": 844,
+    "width": 390
+  },
+  {
+    "name": "galeri",
+    "label": "phone",
+    "height": 4362,
+    "missing": [],
+    "scrollWidth": 375,
+    "viewportHeight": 844,
+    "width": 390
+  },
+  {
+    "name": "home",
+    "label": "desktop",
+    "height": 4270,
     "missing": [],
     "scrollWidth": 1425,
+    "viewportHeight": 1000,
     "width": 1440
   },
   {
-    "page": "program",
-    "size": "desktop",
-    "height": 4500,
+    "name": "program",
+    "label": "desktop",
+    "height": 5557,
     "missing": [],
     "scrollWidth": 1425,
+    "viewportHeight": 1000,
     "width": 1440
   },
   {
-    "page": "galeri",
-    "size": "desktop",
-    "height": 3094,
+    "name": "galeri",
+    "label": "tablet",
+    "height": 4054,
     "missing": [],
-    "scrollWidth": 1425,
-    "width": 1440
+    "scrollWidth": 819,
+    "viewportHeight": 1112,
+    "width": 834
   },
   {
-    "page": "home",
-    "size": "large",
-    "height": 4538,
+    "name": "home",
+    "label": "large",
+    "height": 5050,
     "missing": [],
     "scrollWidth": 2545,
+    "viewportHeight": 1440,
     "width": 2560
   }
 ]

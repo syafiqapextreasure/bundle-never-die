@@ -1328,5 +1328,13 @@
     "alt": "",
     "confidence": "high",
     "notes": "Exact approved gallery decorative still-life, moved below consistent shared header."
+  },
+  "newspaper-paper": {
+    "src": "/assets/newspaper-paper.webp",
+    "width": 1536,
+    "height": 1024,
+    "source": "exec-b52573fe-f843-4e40-9436-f038067ae001.png",
+    "variants": [],
+    "notes": "High-resolution blank antique paper, built-in ImageGen; no documentary photography altered."
   }
 }

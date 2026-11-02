@@ -1,5 +1,7 @@
 # Visual audit and verification
 
+The current implementation includes the [3 November revision](REVIEW-2026-11-03.md), addressing the owner's ten annotated screenshots. The notes below record the initial delivery; the linked revision supersedes its typography, gallery and background details.
+
 Reviewed against the five approved raster designs on 2 November 2026. Visual corrections preceded functional tests.
 
 ## Page-by-page review

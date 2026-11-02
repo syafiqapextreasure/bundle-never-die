@@ -48,7 +48,15 @@ Article hours, admission fees and the detailed 2027 schedule remain unannounced.
 
 ## Assets and quality
 
-Owner-supplied event photos are retained at native resolution with lossless WebP compression and separately resized responsive variants. Generated approved artwork supplies the masthead, key display lettering, icons, paper, still-life and promotional-card imagery. Real HTML heading text accompanies display lettering for accessibility and search. Body text uses self-hosted licensed fonts; font license files are included.
+### Adding album photographs
+
+Edit `content/albums.json`. Its keys are `antarabangsa`, `tour` and `komuniti`. Each photo entry is `["asset-name", "Visible caption", "Accessible photo description"]`. Put the corresponding native-resolution, optimized WebP at `public/assets/asset-name.webp`. Optional smaller variants can be added to `public/assets/asset-manifest.json` for thumbnail delivery. Run `npm run build` and `npm test` afterward.
+
+The gallery automatically creates the thumbnail rail, photo count and range selector from the list. It supports 80 photos per album without rendering 80 full-size main images simultaneously. Existing albums contain the actual supplied photos only. Keep names unique within each album and preserve the correct event/year.
+
+See the [3 November visual revision](docs/REVIEW-2026-11-03.md) for the larger typography, paper layers, restored banner details and carousel changes.
+
+Owner-supplied event photos are retained at native resolution with lossless WebP compression and separately resized responsive variants. Generated approved artwork supplies the masthead, key display lettering, icons, paper and still-life. Small promotional-card crops have been replaced with original event photographs. Real HTML heading text accompanies display lettering for accessibility and search. Body text uses self-hosted licensed fonts; font license files are included.
 
 The new red background was made with the authorized built-in ImageGen tool. Its exact underlying model is not selectable or asserted as GPT Image 2. Small crops retain the resolution limits of their approved source art; lossless compression does not invent new detail. Generated promotional images are not used as documentary gallery photos.
 
