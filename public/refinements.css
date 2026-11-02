@@ -108,6 +108,23 @@ body{background:linear-gradient(#f6edda88,#f6edda88),#e8dbc2 url('/assets/newspa
 @media(prefers-reduced-motion:reduce){.hero-slide,.album-image,.album-thumb{transition:none!important}.hero-pause{display:none}}
 
 /* Follow-up: visible masthead paper and compact editorial stories. */
+.collection-toolbar{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;border-block:1px solid #a28d7180;padding:.6rem 0;margin:.6rem 0 1rem}
+.collection-toolbar p{margin:0;font-size:.75rem}.collection-toolbar strong{font-family:var(--label);color:var(--red);letter-spacing:.08em;margin-right:.7em}.collection-toolbar span{font-style:italic}
+.photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+.photo-card{display:block;min-width:0;padding:.3rem;background:#fbefd7;border:1px solid #b69a7090;box-shadow:0 3px 8px #49321f12;transition:transform .2s,box-shadow .2s}
+.photo-card[hidden]{display:none}.photo-card:hover{transform:translateY(-3px);box-shadow:0 7px 15px #49321f26}
+.photo-card-image{position:relative;aspect-ratio:4/3;overflow:hidden;background:#e1d1b3}
+.photo-card-image img{width:100%;height:100%;object-fit:cover;object-position:center 55%;transition:transform .35s}
+.photo-card:hover img{transform:scale(1.035)}
+.photo-card p{display:flex;justify-content:space-between;align-items:center;gap:.5rem;margin:0;padding:.5rem .3rem .3rem;font-size:.8rem;line-height:1.35;min-height:3em}
+.photo-card p>span{color:var(--red);font-size:1.1rem}
+.photo-expand{position:absolute;right:.4rem;top:.4rem;display:grid;place-items:center;width:1.5rem;height:1.5rem;background:#f9ecd7e8;color:var(--ink);font-size:1rem}
+.photo-number{position:absolute;left:.4rem;bottom:.4rem;font:500 .65rem var(--label);letter-spacing:.08em;padding:.1em .4em;background:#10212bcc;color:#fff5e0}
+.collection-footer{display:flex;align-items:center;justify-content:center;gap:1rem;padding:.8rem 0 1.4rem}.collection-count{font:.7rem var(--label);margin:0;color:var(--red);letter-spacing:.04em}.collection-more{font-size:.75rem}
+@media(max-width:1100px){.photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.photo-card p{font-size:18px}}
+@media(max-width:760px){.collection-toolbar{display:block;padding:.55rem 0;margin-bottom:.7rem}.collection-toolbar p{font-size:15px}.collection-toolbar p+p{margin-top:.2rem}.photo-grid{gap:.6rem}.photo-card{padding:4px}.photo-card-image{aspect-ratio:1}.photo-card p{font-size:16px;min-height:3.5em;padding:.4rem .15rem}.photo-expand{width:26px;height:26px;font-size:19px}.photo-number{font-size:13px}.collection-footer{flex-wrap:wrap;gap:.5rem}.collection-count{font-size:15px}.collection-more{font-size:16px}}
+@media(max-width:350px){.photo-grid{grid-template-columns:1fr}.photo-card-image{aspect-ratio:4/3}.photo-card p{font-size:18px;min-height:0}}
+@media(prefers-reduced-motion:reduce){.photo-card,.photo-card-image img{transition:none}.photo-card:hover,.photo-card:hover img{transform:none}}
 .site-header{position:relative;margin-inline:-4.15%;padding-inline:4.15%;background:linear-gradient(#f6edda45,#f6edda45),url('/assets/newspaper-paper.webp') center 42%/900px auto;box-shadow:inset 0 -1px #ac8b5c40}
 .site-header .wordmark{mix-blend-mode:multiply}
 .breadcrumb{background:linear-gradient(#f6edda40,#f6edda40),url('/assets/newspaper-paper.webp') center 65%/900px auto;margin-inline:-4.15%;padding:.35rem 4.15% .65rem}
@@ -152,3 +169,19 @@ body{background:linear-gradient(#f6edda88,#f6edda88),#e8dbc2 url('/assets/newspa
  .cross-border-strip{grid-template-columns:1fr;gap:.7rem}.cross-story h2{font-size:32px}.cross-story .eyebrow{font-size:14px}.cross-story>p:not(.eyebrow):not(.country-chips){font-size:18px}.country-chips{font-size:16px}.cross-story .button{font-size:16px;width:100%}.cross-photos{height:65vw;min-height:240px;max-height:370px}
  .fuji-feature{grid-template-columns:1fr;gap:.65rem}.fuji-feature>img{height:65vw;max-height:370px}.fuji-feature h2{font-size:36px}.fuji-feature p{font-size:18px}.fuji-feature .story-footnote{font-size:14px}
 }
+
+/* Compact album headings keep the photograph list close to its title. */
+.gallery-album .album-banner{padding:.65rem 1rem;margin:.6rem 0 .7rem}
+.gallery-album .album-banner h2{font-size:clamp(28px,2.6vw,50px);line-height:1.08}
+.gallery-album .album-banner>span{font-size:clamp(18px,1.5vw,28px);margin:.3rem auto 0}
+.photo-card-image img[src*="tour-01"]{object-position:center 25%}
+.photo-card-image img[src*="tour-06"]{object-position:center 35%}
+.photo-card-image img[src*="international-01"]{object-position:center 35%}
+.photo-card-image img[src*="international-02"]{object-position:center 25%}
+.photo-card-image img[src*="international-03"]{object-position:center 30%}
+.photo-card-image img[src*="home-hunt"]{object-position:center 30%}
+@media(max-width:760px){.gallery-album .album-banner{padding:.5rem .3rem}.gallery-album .album-banner h2{font-size:26px}.photo-card p{font-size:18px}}
+
+/* Keep the event strip attached to the breadcrumb on every inner page. */
+.site-header:not(.home-header) .event-strip{margin-bottom:0}
+.site-header:not(.home-header)+main>.page-intro:first-child{margin-top:.65rem}

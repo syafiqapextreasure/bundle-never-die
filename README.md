@@ -52,7 +52,7 @@ Article hours, admission fees and the detailed 2027 schedule remain unannounced.
 
 Edit `content/albums.json`. Its keys are `antarabangsa`, `tour` and `komuniti`. Each photo entry is `["asset-name", "Visible caption", "Accessible photo description"]`. Put the corresponding native-resolution, optimized WebP at `public/assets/asset-name.webp`. Optional smaller variants can be added to `public/assets/asset-manifest.json` for thumbnail delivery. Run `npm run build` and `npm test` afterward.
 
-The gallery automatically creates the thumbnail rail, photo count and range selector from the list. It supports 80 photos per album without rendering 80 full-size main images simultaneously. Existing albums contain the actual supplied photos only. Keep names unique within each album and preserve the correct event/year.
+The gallery presents a responsive photograph grid first. Clicking a preview opens the original-resolution photograph in a lightbox with previous/next controls, keyboard arrows and Escape to close. Albums initially show 12 previews; “Paparkan lagi” reveals the next 12. This supports 80 photographs per album without showing a large detail image before the visitor chooses one. Existing albums contain the actual supplied photos only. Keep names unique within each album and preserve the correct event/year.
 
 See the [3 November visual revision](docs/REVIEW-2026-11-03.md) for the larger typography, paper layers, restored banner details and carousel changes.
 

@@ -6,7 +6,7 @@ import {resolve,dirname,join,relative} from 'node:path';
 import {pathToFileURL} from 'node:url';
 import worker from '../src/worker.mjs';
 import {routes} from '../src/data.mjs';
-import {albumCarousel} from '../src/carousels.mjs';
+import {albumGrid} from '../src/carousels.mjs';
 const env={ASSETS:{async fetch(request){const url=new URL(request.url);const file='dist/'+(url.pathname==='/'?'index.html':url.pathname.slice(1)+(url.pathname.includes('.')?'':'.html'));try{return new Response(request.method==='HEAD'?null:await readFile(file),{headers:{'content-type':file.endsWith('.html')?'text/html':'application/octet-stream'}});}catch{return new Response(await readFile('dist/404.html'),{status:404,headers:{'content-type':'text/html'}});}}}};
 const request=(path,options={})=>worker.fetch(new Request('https://festival.example'+path,options),env);
 
@@ -37,13 +37,13 @@ test('event facts, date-only schema and calendar are consistent',async()=>{const
 test('404, unsupported methods and HEAD have correct behavior',async()=>{assert.equal((await request('/missing')).status,404);assert.equal((await request('/',{method:'POST'})).status,405);const res=await request('/tentang',{method:'HEAD'});assert.equal(res.status,200);assert.equal(await res.text(),'');assert.equal(res.headers.get('x-content-type-options'),'nosniff');});
 test('custom domain overrides canonical origin and archive year is 2026',async()=>{const res=await worker.fetch(new Request('https://preview.workers.dev/tentang'),{...env,SITE_URL:'https://custom.example'});const html=await res.text();assert.match(html,/rel="canonical" href="https:\/\/custom.example\/tentang"/);assert.match(html,/KOMUNITI VENDOR 2026/);assert.ok(!html.includes('pelan tapak'));});
 
-test('80-photo albums keep a single main image and address every thumbnail',()=>{
+test('80-photo albums list previews first and expose full files only through links',()=>{
  const photos=Array.from({length:80},(_,i)=>['international-01',`Foto ${i+1}`,`Keterangan ${i+1}`]);
- const html=albumCarousel(photos,'test');
+ const html=albumGrid(photos,'test');
  const data=JSON.parse(html.match(/class="album-data">(.*?)<\/script>/)[1]);
- assert.equal(data.length,80);assert.equal((html.match(/class="album-image"/g)||[]).length,1);
- assert.equal((html.match(/class="album-thumb"/g)||[]).length,80);
- assert.match(html,/max="80"/);assert.match(html,/data-index="79"/);
+ assert.equal(data.length,80);assert.equal((html.match(/class="album-image"/g)||[]).length,0);
+ assert.equal((html.match(/class="photo-card"/g)||[]).length,80);
+ assert.match(html,/class="collection-more button" hidden/);assert.match(html,/data-index="79"/);
  assert.equal(data[79].caption,'Foto 80');
 });
 test('documentary photographs are not repeated across sections on the same page',async()=>{

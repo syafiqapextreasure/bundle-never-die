@@ -1,10 +1,11 @@
-import { albumCarousel, heroCarousel } from './carousels.mjs';
+import { albumGrid, heroCarousel } from './carousels.mjs';
 import { existsSync, readFileSync } from 'node:fs';
 import { event, international, tour, community, faq } from './data.mjs';
 export const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const base='public/assets/';
 const manifest=JSON.parse(readFileSync(base+'asset-manifest.json','utf8'));
 export function img(name,alt,cls='',priority=false){
+ if(name==='brand-masthead')return `<img class="${cls}" src="/assets/brand-masthead.svg" width="672" height="144" alt="${esc(alt)}" decoding="async" ${priority?'fetchpriority="high"':''}>`;
  const src='/assets/'+name+'.webp';
  const asset=manifest[name];
  const variants=(asset?.variants||[]).map(v=>`${v.src} ${v.width}w`);
@@ -76,9 +77,9 @@ export function highlights(){return `<main id="main" class="highlights-page"><se
 
 export function gallery(){return `<main id="main" class="gallery-page"><section class="page-intro gallery-intro"><p class="eyebrow ruled">GALERI BUNDLE NEVERDIE</p>${titleArt(1,'title-gallery','WAJAH, CERITA & KENANGAN.','intro-art')}<p class="italic">Setiap pertemuan ada ceritanya.</p></section>
  <div class="section-tabs gallery-filters" role="group" aria-label="Tapis album galeri"><button data-filter="semua" aria-pressed="true">SEMUA</button><button data-filter="antarabangsa" aria-pressed="false">ANTARABANGSA</button><button data-filter="tour" aria-pressed="false">TOUR ALOR SETAR 2025</button><button data-filter="komuniti" aria-pressed="false">KOMUNITI</button></div>
- <section class="gallery-album" id="album-antarabangsa" data-album="antarabangsa"><div class="album-title"><h2>SAHABAT MERENTAS SEMPADAN</h2><span class="tag">SOKONGAN<br>ANTARABANGSA</span></div><p class="italic">Thailand, Indonesia, Jepun dan negara lain — terima kasih kerana hadir bersama komuniti kita.</p>${albumCarousel(international,'antarabangsa')}</section>
- <section class="gallery-album" id="album-tour" data-album="tour"><div class="album-banner red-panel"><h2>BUNDLE NEVERDIE FESTIVAL TOUR<br>ALOR SETAR, KEDAH</h2><span>DISEMBER 2025</span></div><p class="italic">Dari gerai ke pentas, merakam perjalanan komuniti.</p>${albumCarousel(tour,'tour')}</section>
- <section class="gallery-album" id="album-komuniti" data-album="komuniti"><div class="album-banner navy-panel"><h2>BUNDLE NEVERDIE 2026</h2><span>WAJAH KOMUNITI</span></div><p class="italic">Kenangan bersama peniaga, pengumpul dan sahabat.</p>${albumCarousel(community,'komuniti')}<div class="video-block"><h3>Throwback 2026</h3><video controls preload="none" aria-label="Video suasana acara Bundle Neverdie 2026"><source src="/assets/throwback-2026.mp4" type="video/mp4"><a href="/assets/throwback-2026.mp4">Muat turun video</a></video></div></section>
+ <section class="gallery-album" id="album-antarabangsa" data-album="antarabangsa"><div class="album-title"><h2>SAHABAT MERENTAS SEMPADAN</h2><span class="tag">SOKONGAN<br>ANTARABANGSA</span></div><p class="italic">Thailand, Indonesia, Jepun dan negara lain — terima kasih kerana hadir bersama komuniti kita.</p>${albumGrid(international,'antarabangsa')}</section>
+ <section class="gallery-album" id="album-tour" data-album="tour"><div class="album-banner red-panel"><h2>BUNDLE NEVERDIE FESTIVAL TOUR<br>ALOR SETAR, KEDAH</h2><span>DISEMBER 2025</span></div><p class="italic">Dari gerai ke pentas, merakam perjalanan komuniti.</p>${albumGrid(tour,'tour')}</section>
+ <section class="gallery-album" id="album-komuniti" data-album="komuniti"><div class="album-banner navy-panel"><h2>BUNDLE NEVERDIE 2026</h2><span>WAJAH KOMUNITI</span></div><p class="italic">Kenangan bersama peniaga, pengumpul dan sahabat.</p>${albumGrid(community,'komuniti')}<div class="video-block"><h3>Throwback 2026</h3><video controls preload="none" aria-label="Video suasana acara Bundle Neverdie 2026"><source src="/assets/throwback-2026.mp4" type="video/mp4"><a href="/assets/throwback-2026.mp4">Muat turun video</a></video></div></section>
  <p class="sr-only" id="filter-status" aria-live="polite"></p><section class="gallery-more"><h2>LAGI CERITA KOMUNITI</h2>${button('Sorotan acara lepas','/sorotan')}${button('Kenali komuniti','/tentang')}</section>${closing('JUMPA DI')}</main>${lightbox()}`;}
 
 
