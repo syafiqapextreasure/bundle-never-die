@@ -32,7 +32,15 @@ npm run deploy
 
 Wrangler prompts for your Cloudflare login. The repository contains no Cloudflare or OpenAI credentials. No API key or image generation is needed to build the website.
 
-The canonical domain defaults to the incoming request origin, so the assigned `workers.dev` URL works immediately. When using a custom domain, optionally add Worker variable `SITE_URL=https://your-domain.example` in Cloudflare settings. `/sitemap.xml` and `/robots.txt` follow that domain automatically. `.html` and trailing-slash page URLs redirect to clean paths; unknown paths return a genuine 404.
+The production domain is `https://www.bundleneverdie.com`. Requests to the apex domain or HTTP production URLs redirect permanently to HTTPS www, preserving paths and query parameters. Both domain hostnames must remain attached to this Worker in Cloudflare. Production canonical URLs, `/sitemap.xml` and `/robots.txt` consistently use HTTPS www. Preview hosts default to their incoming origin, with an optional `SITE_URL` override. `.html` and trailing-slash page URLs redirect to clean paths; unknown paths return a genuine 404.
+
+## Google Analytics and Search Console
+
+GA4 measurement ID **G-ZWP1RDB3S9** is installed in `src/worker.mjs`. The Worker injects the owner's Google tag immediately after `<head>` on every production HTML page, including the 404 page. Local previews and `workers.dev` URLs do not send analytics, even when `SITE_URL` is set to the production domain. Do not add a second copy in the page templates or Google Tag Manager. Normal page navigation lets the Google tag send its default page-view event.
+
+After deployment, visit the public website and check **Google Analytics → Reports → Realtime**, or use Google Tag Assistant. A successful build or the presence of the tag alone does not confirm that Google has received events. Browser blockers and consent settings can affect collection.
+
+In Search Console, verify the Domain property `bundleneverdie.com` using Google's DNS TXT record, then submit `https://www.bundleneverdie.com/sitemap.xml`. Search Console verification and its optional GA4 product link are separate account setup steps; the Analytics tag does not complete them automatically.
 
 ## Pages and editing
 

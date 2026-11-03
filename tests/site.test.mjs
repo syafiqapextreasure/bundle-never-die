@@ -10,6 +10,34 @@ import {albumGrid} from '../src/carousels.mjs';
 const env={ASSETS:{async fetch(request){const url=new URL(request.url);const file='dist/'+(url.pathname==='/'?'index.html':url.pathname.slice(1)+(url.pathname.includes('.')?'':'.html'));try{return new Response(request.method==='HEAD'?null:await readFile(file),{headers:{'content-type':file.endsWith('.html')?'text/html':'application/octet-stream'}});}catch{return new Response(await readFile('dist/404.html'),{status:404,headers:{'content-type':'text/html'}});}}}};
 const request=(path,options={})=>worker.fetch(new Request('https://festival.example'+path,options),env);
 
+test('GA4 is installed once on every production HTML page, including 404, and absent from previews',async()=>{
+ for(const route of [...routes,'/missing']){
+  const response=await worker.fetch(new Request('https://www.bundleneverdie.com'+route),env);
+  const html=await response.text();
+  assert.equal((html.match(/<script async src="https:\/\/www.googletagmanager.com\/gtag\/js\?id=G-ZWP1RDB3S9"/g)||[]).length,1);
+  assert.equal((html.match(/gtag\('config', 'G-ZWP1RDB3S9'\)/g)||[]).length,1);
+  assert.match(html,/<head><!-- Google tag/);
+ }
+ for(const origin of ['http://127.0.0.1:4173','https://preview.workers.dev']){
+  const html=await (await worker.fetch(new Request(origin+'/'),{...env,SITE_URL:'https://www.bundleneverdie.com'})).text();
+  assert.ok(!html.includes('googletagmanager.com'));assert.ok(!html.includes('G-ZWP1RDB3S9'));
+ }
+});
+
+test('production uses HTTPS www with path/query-preserving redirects and consistent discovery URLs',async()=>{
+ for(const origin of ['https://bundleneverdie.com','http://bundleneverdie.com','http://www.bundleneverdie.com']){
+  const response=await worker.fetch(new Request(origin+'/galeri?album=tour&utm_source=facebook'),env);
+  assert.equal(response.status,301);
+  assert.equal(response.headers.get('location'),'https://www.bundleneverdie.com/galeri?album=tour&utm_source=facebook');
+ }
+ const prodRequest=path=>worker.fetch(new Request('https://www.bundleneverdie.com'+path),{...env,SITE_URL:'https://bundleneverdie.com'});
+ const html=await (await prodRequest('/tentang')).text();
+ assert.match(html,/rel="canonical" href="https:\/\/www.bundleneverdie.com\/tentang"/);
+ const xml=await (await prodRequest('/sitemap.xml')).text();
+ assert.equal((xml.match(/<loc>https:\/\/www.bundleneverdie.com\//g)||[]).length,5);
+ assert.match(await (await prodRequest('/robots.txt')).text(),/Sitemap: https:\/\/www.bundleneverdie.com\/sitemap.xml/);
+});
+
 test('Worker boots without build-time content files',async()=>{
  const sandbox=await mkdtemp(join(tmpdir(),'neverdie-worker-'));
  const originalCwd=process.cwd();
